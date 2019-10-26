@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29FC71D72364FC1E00F0ABE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71D62364FC1E00F0ABE3 /* AppDelegate.swift */; };
+		29FC71D92364FC1E00F0ABE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71D82364FC1E00F0ABE3 /* SceneDelegate.swift */; };
+		29FC71DB2364FC1E00F0ABE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71DA2364FC1E00F0ABE3 /* ContentView.swift */; };
+		29FC71DD2364FC1F00F0ABE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC71DC2364FC1F00F0ABE3 /* Assets.xcassets */; };
+		29FC71E02364FC1F00F0ABE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC71DF2364FC1F00F0ABE3 /* Preview Assets.xcassets */; };
+		29FC71E32364FC1F00F0ABE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FC71E12364FC1F00F0ABE3 /* LaunchScreen.storyboard */; };
+		29FC71EE2364FC1F00F0ABE3 /* olGOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71ED2364FC1F00F0ABE3 /* olGOTests.swift */; };
+		29FC71F92364FC1F00F0ABE3 /* olGOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71F82364FC1F00F0ABE3 /* olGOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29FC71EA2364FC1F00F0ABE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FC71CB2364FC1E00F0ABE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FC71D22364FC1E00F0ABE3;
+			remoteInfo = olGO;
+		};
+		29FC71F52364FC1F00F0ABE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FC71CB2364FC1E00F0ABE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FC71D22364FC1E00F0ABE3;
+			remoteInfo = olGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29FC71D32364FC1E00F0ABE3 /* olGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FC71D62364FC1E00F0ABE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29FC71D82364FC1E00F0ABE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29FC71DA2364FC1E00F0ABE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29FC71DC2364FC1F00F0ABE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29FC71DF2364FC1F00F0ABE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29FC71E22364FC1F00F0ABE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29FC71E42364FC1F00F0ABE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FC71E92364FC1F00F0ABE3 /* olGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FC71ED2364FC1F00F0ABE3 /* olGOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olGOTests.swift; sourceTree = "<group>"; };
+		29FC71EF2364FC1F00F0ABE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FC71F42364FC1F00F0ABE3 /* olGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FC71F82364FC1F00F0ABE3 /* olGOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olGOUITests.swift; sourceTree = "<group>"; };
+		29FC71FA2364FC1F00F0ABE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FC71D02364FC1E00F0ABE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC71E62364FC1F00F0ABE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC71F12364FC1F00F0ABE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29FC71CA2364FC1E00F0ABE3 = {
+			isa = PBXGroup;
+			children = (
+				29FC71D52364FC1E00F0ABE3 /* olGO */,
+				29FC71EC2364FC1F00F0ABE3 /* olGOTests */,
+				29FC71F72364FC1F00F0ABE3 /* olGOUITests */,
+				29FC71D42364FC1E00F0ABE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29FC71D42364FC1E00F0ABE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FC71D32364FC1E00F0ABE3 /* olGO.app */,
+				29FC71E92364FC1F00F0ABE3 /* olGOTests.xctest */,
+				29FC71F42364FC1F00F0ABE3 /* olGOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FC71D52364FC1E00F0ABE3 /* olGO */ = {
+			isa = PBXGroup;
+			children = (
+				29FC71D62364FC1E00F0ABE3 /* AppDelegate.swift */,
+				29FC71D82364FC1E00F0ABE3 /* SceneDelegate.swift */,
+				29FC71DA2364FC1E00F0ABE3 /* ContentView.swift */,
+				29FC71DC2364FC1F00F0ABE3 /* Assets.xcassets */,
+				29FC71E12364FC1F00F0ABE3 /* LaunchScreen.storyboard */,
+				29FC71E42364FC1F00F0ABE3 /* Info.plist */,
+				29FC71DE2364FC1F00F0ABE3 /* Preview Content */,
+			);
+			path = olGO;
+			sourceTree = "<group>";
+		};
+		29FC71DE2364FC1F00F0ABE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29FC71DF2364FC1F00F0ABE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29FC71EC2364FC1F00F0ABE3 /* olGOTests */ = {
+			isa = PBXGroup;
+			children = (
+				29FC71ED2364FC1F00F0ABE3 /* olGOTests.swift */,
+				29FC71EF2364FC1F00F0ABE3 /* Info.plist */,
+			);
+			path = olGOTests;
+			sourceTree = "<group>";
+		};
+		29FC71F72364FC1F00F0ABE3 /* olGOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29FC71F82364FC1F00F0ABE3 /* olGOUITests.swift */,
+				29FC71FA2364FC1F00F0ABE3 /* Info.plist */,
+			);
+			path = olGOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FC71D22364FC1E00F0ABE3 /* olGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FC71FD2364FC1F00F0ABE3 /* Build configuration list for PBXNativeTarget "olGO" */;
+			buildPhases = (
+				29FC71CF2364FC1E00F0ABE3 /* Sources */,
+				29FC71D02364FC1E00F0ABE3 /* Frameworks */,
+				29FC71D12364FC1E00F0ABE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = olGO;
+			productName = olGO;
+			productReference = 29FC71D32364FC1E00F0ABE3 /* olGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29FC71E82364FC1F00F0ABE3 /* olGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FC72002364FC1F00F0ABE3 /* Build configuration list for PBXNativeTarget "olGOTests" */;
+			buildPhases = (
+				29FC71E52364FC1F00F0ABE3 /* Sources */,
+				29FC71E62364FC1F00F0ABE3 /* Frameworks */,
+				29FC71E72364FC1F00F0ABE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FC71EB2364FC1F00F0ABE3 /* PBXTargetDependency */,
+			);
+			name = olGOTests;
+			productName = olGOTests;
+			productReference = 29FC71E92364FC1F00F0ABE3 /* olGOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29FC71F32364FC1F00F0ABE3 /* olGOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FC72032364FC1F00F0ABE3 /* Build configuration list for PBXNativeTarget "olGOUITests" */;
+			buildPhases = (
+				29FC71F02364FC1F00F0ABE3 /* Sources */,
+				29FC71F12364FC1F00F0ABE3 /* Frameworks */,
+				29FC71F22364FC1F00F0ABE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FC71F62364FC1F00F0ABE3 /* PBXTargetDependency */,
+			);
+			name = olGOUITests;
+			productName = olGOUITests;
+			productReference = 29FC71F42364FC1F00F0ABE3 /* olGOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FC71CB2364FC1E00F0ABE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = oneleif;
+				TargetAttributes = {
+					29FC71D22364FC1E00F0ABE3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					29FC71E82364FC1F00F0ABE3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 29FC71D22364FC1E00F0ABE3;
+					};
+					29FC71F32364FC1F00F0ABE3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 29FC71D22364FC1E00F0ABE3;
+					};
+				};
+			};
+			buildConfigurationList = 29FC71CE2364FC1E00F0ABE3 /* Build configuration list for PBXProject "olGO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29FC71CA2364FC1E00F0ABE3;
+			productRefGroup = 29FC71D42364FC1E00F0ABE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FC71D22364FC1E00F0ABE3 /* olGO */,
+				29FC71E82364FC1F00F0ABE3 /* olGOTests */,
+				29FC71F32364FC1F00F0ABE3 /* olGOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FC71D12364FC1E00F0ABE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC71E32364FC1F00F0ABE3 /* LaunchScreen.storyboard in Resources */,
+				29FC71E02364FC1F00F0ABE3 /* Preview Assets.xcassets in Resources */,
+				29FC71DD2364FC1F00F0ABE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC71E72364FC1F00F0ABE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC71F22364FC1F00F0ABE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FC71CF2364FC1E00F0ABE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC71D72364FC1E00F0ABE3 /* AppDelegate.swift in Sources */,
+				29FC71D92364FC1E00F0ABE3 /* SceneDelegate.swift in Sources */,
+				29FC71DB2364FC1E00F0ABE3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC71E52364FC1F00F0ABE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC71EE2364FC1F00F0ABE3 /* olGOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC71F02364FC1F00F0ABE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC71F92364FC1F00F0ABE3 /* olGOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29FC71EB2364FC1F00F0ABE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FC71D22364FC1E00F0ABE3 /* olGO */;
+			targetProxy = 29FC71EA2364FC1F00F0ABE3 /* PBXContainerItemProxy */;
+		};
+		29FC71F62364FC1F00F0ABE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FC71D22364FC1E00F0ABE3 /* olGO */;
+			targetProxy = 29FC71F52364FC1F00F0ABE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29FC71E12364FC1F00F0ABE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FC71E22364FC1F00F0ABE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29FC71FB2364FC1F00F0ABE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29FC71FC2364FC1F00F0ABE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29FC71FE2364FC1F00F0ABE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"olGO/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M8SAX62V2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = olGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ol.olGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29FC71FF2364FC1F00F0ABE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"olGO/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M8SAX62V2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = olGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ol.olGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29FC72012364FC1F00F0ABE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8SAX62V2;
+				INFOPLIST_FILE = olGOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ol.olGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olGO.app/olGO";
+			};
+			name = Debug;
+		};
+		29FC72022364FC1F00F0ABE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8SAX62V2;
+				INFOPLIST_FILE = olGOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ol.olGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olGO.app/olGO";
+			};
+			name = Release;
+		};
+		29FC72042364FC1F00F0ABE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8SAX62V2;
+				INFOPLIST_FILE = olGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ol.olGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = olGO;
+			};
+			name = Debug;
+		};
+		29FC72052364FC1F00F0ABE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8SAX62V2;
+				INFOPLIST_FILE = olGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ol.olGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = olGO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FC71CE2364FC1E00F0ABE3 /* Build configuration list for PBXProject "olGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FC71FB2364FC1F00F0ABE3 /* Debug */,
+				29FC71FC2364FC1F00F0ABE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FC71FD2364FC1F00F0ABE3 /* Build configuration list for PBXNativeTarget "olGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FC71FE2364FC1F00F0ABE3 /* Debug */,
+				29FC71FF2364FC1F00F0ABE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FC72002364FC1F00F0ABE3 /* Build configuration list for PBXNativeTarget "olGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FC72012364FC1F00F0ABE3 /* Debug */,
+				29FC72022364FC1F00F0ABE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FC72032364FC1F00F0ABE3 /* Build configuration list for PBXNativeTarget "olGOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FC72042364FC1F00F0ABE3 /* Debug */,
+				29FC72052364FC1F00F0ABE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29FC71CB2364FC1E00F0ABE3 /* Project object */;
+}
