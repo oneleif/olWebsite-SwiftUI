@@ -15,6 +15,9 @@
 		29FC71E32364FC1F00F0ABE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FC71E12364FC1F00F0ABE3 /* LaunchScreen.storyboard */; };
 		29FC71EE2364FC1F00F0ABE3 /* olGOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71ED2364FC1F00F0ABE3 /* olGOTests.swift */; };
 		29FC71F92364FC1F00F0ABE3 /* olGOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC71F82364FC1F00F0ABE3 /* olGOUITests.swift */; };
+		29FC72072364FC8000F0ABE3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC72062364FC8000F0ABE3 /* API.swift */; };
+		29FC72092364FE0B00F0ABE3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC72082364FE0B00F0ABE3 /* User.swift */; };
+		29FC720B2364FE3900F0ABE3 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC720A2364FE3900F0ABE3 /* PostItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		29FC71F42364FC1F00F0ABE3 /* olGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC71F82364FC1F00F0ABE3 /* olGOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olGOUITests.swift; sourceTree = "<group>"; };
 		29FC71FA2364FC1F00F0ABE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FC72062364FC8000F0ABE3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		29FC72082364FE0B00F0ABE3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		29FC720A2364FE3900F0ABE3 /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		29FC71D52364FC1E00F0ABE3 /* olGO */ = {
 			isa = PBXGroup;
 			children = (
+				29FC72062364FC8000F0ABE3 /* API.swift */,
 				29FC71D62364FC1E00F0ABE3 /* AppDelegate.swift */,
 				29FC71D82364FC1E00F0ABE3 /* SceneDelegate.swift */,
 				29FC71DA2364FC1E00F0ABE3 /* ContentView.swift */,
@@ -106,6 +113,8 @@
 				29FC71E12364FC1F00F0ABE3 /* LaunchScreen.storyboard */,
 				29FC71E42364FC1F00F0ABE3 /* Info.plist */,
 				29FC71DE2364FC1F00F0ABE3 /* Preview Content */,
+				29FC72082364FE0B00F0ABE3 /* User.swift */,
+				29FC720A2364FE3900F0ABE3 /* PostItem.swift */,
 			);
 			path = olGO;
 			sourceTree = "<group>";
@@ -267,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FC720B2364FE3900F0ABE3 /* PostItem.swift in Sources */,
 				29FC71D72364FC1E00F0ABE3 /* AppDelegate.swift in Sources */,
 				29FC71D92364FC1E00F0ABE3 /* SceneDelegate.swift in Sources */,
+				29FC72072364FC8000F0ABE3 /* API.swift in Sources */,
+				29FC72092364FE0B00F0ABE3 /* User.swift in Sources */,
 				29FC71DB2364FC1E00F0ABE3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
